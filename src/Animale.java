@@ -11,6 +11,15 @@ abstract class Animale {
         this.dataDiNascita = dataDiNascita;
     }
 
+    @Override
+    public String toString() {
+        return "Animale{" +
+                "colore='" + colore + '\'' +
+                ", id=" + id +
+                ", dataDiNascita=" + dataDiNascita +
+                '}';
+    }
+
     public String verso(){
         return "";
 
